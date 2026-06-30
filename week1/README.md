@@ -17,6 +17,13 @@ the Kautz / Garcez taxonomies.
 | 75 min | Second pass: extract the 4×2 table (formula → TRAP cell + NSAI method) |
 | 45 min | Watch Shakarian METACOG-23 overview + Lebiere "Architectural approach to metacognition" |
 
+| modality | formula | explanation |
+|----------|---------|-------------|
+| transparency | $g(f(x), \theta)$, $g\|f$ | generates explanations based on input, $x$, and parameters, $\theta$, of the model $f$. represents function $f$ with a series of $g$ |
+| reasoning | $f(x; g(\theta))$ | self-reflection through $g$ informs decision-making through $f$ |
+| adaptability | $f\prime(x; g(f(x), \theta)$, $g(x)?f(x):h(x)$ | adapts $f$ to $f\prime$ based on metacognitive assessment of $g$ and params $\theta$. $g$ decides between $f$ or $h$ based on $x$ |
+| perception | $f(g(x), x)$ | $f$ is the primary processing function of input $x$ and the metacognitive assessment $g(x)$ to refine its interpretation. $g$ evaluates accuracy and limitations of sensory processing |
+
 **Self-assessment:** For each failure mode (hallucination, reasoning error, distribution shift,
 perception error) — which formula and which NSAI technique applies?
 
