@@ -1,0 +1,35 @@
+# ── Core ML ──────────────────────────────────────────────────────────────────
+torch>=2.1.0
+torchvision>=0.16.0
+
+# ── ABLkit  (Week 2 · Experiment 1: MNIST-Addition) ──────────────────────────
+# Requires SWI-Prolog on PATH:  apt install swi-prolog
+ablkit>=0.1.0
+
+# ── PyEDCR  (Week 3 · Experiment 2: hierarchical classifier) ─────────────────
+# Installed from source in setup.sh — PyPI package lags the CIKM-2024 f-EDR
+# extension.  Kept here as a comment so pip freeze round-trips cleanly.
+# pip install git+https://github.com/lab-v2/PyEDCR.git
+
+# ── Notebooks ────────────────────────────────────────────────────────────────
+jupyter>=1.0.0
+ipykernel>=6.0.0
+nbformat>=5.9.0
+
+# ── Data & visualisation ─────────────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+Pillow>=10.0.0
+
+# ── ML utilities ─────────────────────────────────────────────────────────────
+scikit-learn>=1.3.0
+tqdm>=4.65.0
+rich>=13.0.0
+
+# ── Uncertainty quantification (Week 3 · Experiment 3) ───────────────────────
+MAPIE>=0.7.0           # split-conformal prediction sets
+
+# ── Week 4 capstone — LLM critic (Transparency arm) ──────────────────────────
+anthropic>=0.28.0      # Claude API; swap for openai if preferred
